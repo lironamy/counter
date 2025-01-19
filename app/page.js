@@ -3,7 +3,6 @@
 
 import { useState } from 'react';
 import { products as initialProducts } from '@/data/products';
-import axios from 'axios';
 
 export default function Home() {
   // Initialize state with product list
