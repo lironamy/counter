@@ -79,7 +79,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 p-4 font-sans" dir="rtl">
       <div className="max-w-xl mx-auto bg-white shadow-md rounded-lg p-6">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-2xl font-bold text-center">מונה סיגריות</h1>
+          <h1 className="text-2xl font-bold text-center text-zinc-800">מונה סיגריות</h1>
           <button 
             onClick={() => setShowModal(true)} 
             className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 focus:outline-none"
@@ -89,7 +89,7 @@ export default function Home() {
           </button>
         </div>
         
-        <ul className="space-y-4">
+        <ul className="space-y-4 text-zinc-800">
           {products.map((product, index) => (
             <li key={index} className="flex items-center justify-between">
               <div>
@@ -116,7 +116,7 @@ export default function Home() {
           ))}
         </ul>
 
-        <div className="mt-8 border-t pt-6">
+        <div className="mt-8 border-t pt-6 text-zinc-800">
           <button
             onClick={copyText}
             className="flex flex-row items-center bg-indigo-500 text-white px-3 py-1 rounded hover:bg-indigo-600 focus:outline-none"
